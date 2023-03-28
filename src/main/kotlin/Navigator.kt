@@ -98,7 +98,7 @@ object Navigator {
                 break
             } catch (e: NumberFormatException) {
                 println("Некорректный ввод, ожидается число")
-                i = Scanner(System.`in`).next()
+                i = input.next()
                 continue
             }
         }
